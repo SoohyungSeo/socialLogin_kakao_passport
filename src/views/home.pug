@@ -1,0 +1,25 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Social Login  
+        link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+        link(rel="stylesheet", href="/public/style/stylesheet.css")
+        link(rel="icon", href="/favicon.ico", type="imgae/x-icon")
+        link(rel="shortcut icon", href="/favicon.ico" type="image/s-icon")
+    
+    body
+        header 
+            h3 소셜로그인
+        main 
+            div#SocialLogin
+                h3 카카오로그인 예제
+                form
+                    a#kakao(type="button")
+                        img(src='/public/static/kakaobutton.png', width="80")
+
+script(src="/public/js/home.js")
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js")
+
