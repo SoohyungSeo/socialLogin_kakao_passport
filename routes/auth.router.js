@@ -26,6 +26,7 @@ passport.use(
                     nickname: profile.displayName,
                     userId: profile.id,
                     provider:'kakao',
+                    refresh_token: refreshToken
                 });
                 done(null, newUser)
             }
